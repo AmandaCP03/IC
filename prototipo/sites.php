@@ -19,6 +19,12 @@
         <ul>
             <li><a href="https://ppgquimica.jatai.ufg.br/p/26210-quimica-de-materiais"> 
             https://ppgquimica.jatai.ufg.br/p/26210-quimica-de-materiais</a></li>
+
+            <li><a href="http://qnesc.sbq.org.br/online/cadernos/02/"> 
+            http://qnesc.sbq.org.br/online/cadernos/02/</a></li>
+
+            <li><a href="http://www.cienciadosmateriais.org/index.php?acao=exibir&cap=23"> 
+            http://www.cienciadosmateriais.org/index.php?acao=exibir&cap=23</a></li>
         </ul>
     </div>
 </body>
