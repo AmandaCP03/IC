@@ -4,28 +4,49 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Química dos materiais</title>
-    <link rel="shortcut icon" href="logo2.png" >
-    <link rel="stylesheet" href="css.css">
-    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="shortcut icon" href="img/logo2.png" >
+    <link rel="stylesheet" href="css/css.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 </head> 
 <body>
     <?php
-        include "cabecalho.inc";
-        include "menu.inc";
-        include "tema.inc";
+        include "inc/cabecalho.inc";
+        /*include "menu.inc";*/
     ?>
-    <div class="conteudo">
-        <h5>Vídeos que possam ajudar:</h5>
-        <ul>
-            <li><a href="https://www.youtube.com/watch?v=ercdzLrY27Q&list=PLA90935055A0C9030&index=2"> 
-            https://www.youtube.com/watch?v=ercdzLrY27Q&list=PLA90935055A0C9030&index=2</a></li>
+<div id="wrapper" class="d-flex">
+        <?php
+            include "inc/tema.php";
+        ?>
+    <div id="page-content-wrapper">
+        <nav class="navbar navbar-light bg-light border-bottom">
+            <button style="background-color:#e9e9e9; border:1px solid silver;" class="btn btn-md" id="menu-toggle">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </nav>
+    
+        <div class="conteudo">
+            <h5>Vídeos que possam ajudar:</h5>
+            <ul>
+                <li><a href="https://www.youtube.com/watch?v=ercdzLrY27Q&list=PLA90935055A0C9030&index=2" target="_blank"> 
+                https://www.youtube.com/watch?v=ercdzLrY27Q&list=PLA90935055A0C9030&index=2</a></li>
 
-            <li><a href="https://www.youtube.com/watch?v=lgeUM605Q6Q"> 
-            https://www.youtube.com/watch?v=lgeUM605Q6Q</a></li>
+                <li><a href="https://www.youtube.com/watch?v=lgeUM605Q6Q" target="_blank"> 
+                https://www.youtube.com/watch?v=lgeUM605Q6Q</a></li>
 
-            <li><a href="https://www.youtube.com/watch?v=g2KEQjBo-Mk&list=PLo7ndkxMhMeAqI018-u9g9INIQ4DM9EVf&index=1"> 
-            https://www.youtube.com/watch?v=g2KEQjBo-Mk&list=PLo7ndkxMhMeAqI018-u9g9INIQ4DM9EVf&index=1</a></li>
-        </ul>
+                <li><a href="https://www.youtube.com/watch?v=g2KEQjBo-Mk&list=PLo7ndkxMhMeAqI018-u9g9INIQ4DM9EVf&index=1" target="_blank"> 
+                https://www.youtube.com/watch?v=g2KEQjBo-Mk&list=PLo7ndkxMhMeAqI018-u9g9INIQ4DM9EVf&index=1</a></li>
+            </ul>
+        </div>
     </div>
+</div>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+        $("#menu-toggle").click(function(e) {
+            e.preventDefault();
+            $("#wrapper").toggleClass("toggled");
+        });
+    </script>
 </body>
 </html>
