@@ -23,20 +23,23 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
             </nav>
-        
-            <div class="conteudo">
-                <h5>Sites que possam dar apoio:</h5>
-                <ul>
-                    <li><a href="https://ppgquimica.jatai.ufg.br/p/26210-quimica-de-materiais" target="_blank"> 
-                    https://ppgquimica.jatai.ufg.br/p/26210-quimica-de-materiais</a></li>
+           <!--<div class="row">-->
+                <div class="col-lg-6 offset-lg-2 col-sm-5 offset-sm-0">
+                    <div class="conteudo">
+                        <h5>Sites que possam dar apoio:</h5>
+                        <ul>
+                            <p><li><a href="https://ppgquimica.jatai.ufg.br/p/26210-quimica-de-materiais" target="_blank"> 
+                            https://ppgquimica.jatai.ufg.br/p/26210-quimica-de-materiais</a></li></p>
 
-                    <li><a href="http://qnesc.sbq.org.br/online/cadernos/02/" target="_blank"> 
-                    http://qnesc.sbq.org.br/online/cadernos/02/</a></li>
+                            <p><li><a href="http://qnesc.sbq.org.br/online/cadernos/02/" target="_blank"> 
+                            http://qnesc.sbq.org.br/online/cadernos/02/</a></li></p>
 
-                    <li><a href="http://www.cienciadosmateriais.org/index.php?acao=exibir&cap=23" target="_blank"> 
-                    http://www.cienciadosmateriais.org/index.php?acao=exibir&cap=23</a></li>
-                </ul>
-            </div>
+                            <p><li><a href="http://www.cienciadosmateriais.org/index.php?acao=exibir&cap=23" target="_blank"> 
+                            http://www.cienciadosmateriais.org/index.php?acao=exibir&cap=23</a></li></p>
+                        </ul>
+                    </div>
+                </div>
+            <!--</div>-->
         </div>
     </div>
     <script src="js/jquery-3.3.1.min.js"></script>
