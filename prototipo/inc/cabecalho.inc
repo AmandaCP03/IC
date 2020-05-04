@@ -1,6 +1,6 @@
 <header>
     <nav class="navbar navbar-expand-md navbar-dark fixed-top">
-        <img src="img/nome.png" width=230 height=90>
+        <img src="img/nome.png" width=200 height=90>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <img src="img/menu.png" width=30 height=30>
         </button>

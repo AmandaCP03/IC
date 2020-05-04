@@ -29,6 +29,7 @@ header{
     /*margin-left: 23%;*/
     margin-top: 2%;
     position: absolute;
+    text-align:justify;
 }
 a:visited {
     color:black;

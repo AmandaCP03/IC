@@ -23,10 +23,11 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
             </nav>
-        
-            <div class="conteudo">
-                <h5>Exercícios:</h5>
-            </div>
+            <div class="col-lg-10 offset-lg-2 col-sm-5 offset-sm-0">
+                <div class="conteudo">
+                    <h5>Exercícios:</h5>
+                </div>
+            <div>
         </div>
     </div>
     <script src="js/jquery-3.3.1.min.js"></script>

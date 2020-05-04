@@ -24,7 +24,7 @@
             </button>
         </nav>
 
-        <div class="col-lg-2 offset-lg-2   col-sm-5">   
+        <div class="col-lg-10 offset-lg-2 col-sm-5 offset-sm-0">   
             <div class="conteudo">
                 <h5>Vídeos que possam ajudar:</h5>
                 <ul>

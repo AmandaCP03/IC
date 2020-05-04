@@ -23,9 +23,11 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
             </nav>
-        
-            <div class="conteudo">
-                <h5>Texto com o assunto desenvolvido</h5>
+
+            <div class="col-lg-10 offset-lg-2 col-sm-5 offset-sm-0">
+                <div class="conteudo">
+                    <h5>Texto com o assunto desenvolvido</h5>
+                </div>
             </div>
         </div>
     </div>
