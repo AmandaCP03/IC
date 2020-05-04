@@ -18,7 +18,7 @@
             include "inc/tema.php";
         ?>
     <div id="page-content-wrapper">
-        <nav class="navbar navbar-light bg-light border-bottom">
+        <nav class="navbar navbar-light bg-light border-bottom navbot">
             <button style="background-color:#e9e9e9; border:1px solid silver;" class="btn btn-md" id="menu-toggle">
                 <span class="navbar-toggler-icon"></span>
             </button>
