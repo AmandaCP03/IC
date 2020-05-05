@@ -23,7 +23,7 @@
         </nav>
     
         <div class="col-lg-8 offset-lg-2 col-sm-5 offset-sm-0">
-            <div class="conteudo" style="align='justify';">
+            <div class="conteudo">
                 <h5>Texto de introdução</h5>
                 <p>Mussum Ipsum, cacilds vidis litro abertis. Quem num gosta di mé, boa gentis num é. Praesent malesuada urna nisi, quis volutpat erat hendrerit non. Nam vulputate dapibus. Si num tem leite então bota uma pinga aí cumpadi! Admodum accumsan disputationi eu sit. Vide electram sadipscing et per.</p>
 

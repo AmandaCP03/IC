@@ -18,24 +18,24 @@
             include "inc/tema.php";
         ?>
     <div id="page-content-wrapper">
-        <nav class="navbar navbar-light bg-light border-bottom navbot">
+        <nav class="navbar navbar-light bg-light border-bottom navbot fixed-top">
             <button style="background-color:#e9e9e9; border:1px solid silver;" class="btn btn-md" id="menu-toggle">
                 <span class="navbar-toggler-icon"></span>
             </button>
         </nav>
 
-        <div class="col-lg-10 offset-lg-2 col-sm-5 offset-sm-0">   
+        <div class="col-lg-10 offset-lg-2 col-sm-4 offset-sm-0">   
             <div class="conteudo">
                 <h5>Vídeos que possam ajudar:</h5>
                 <ul>
-                    <li><a href="https://www.youtube.com/watch?v=ercdzLrY27Q&list=PLA90935055A0C9030&index=2" target="_blank"> 
-                    https://www.youtube.com/watch?v=ercdzLrY27Q&list=PLA90935055A0C9030&index=2</a></li>
+                    <p><li><a href="https://www.youtube.com/watch?v=ercdzLrY27Q&list=PLA90935055A0C9030&index=2" target="_blank"> 
+                    https://www.youtube.com/watch?v=ercdzLrY27Q&list=PLA90935055A0C9030&index=2</a></li></p>
 
-                    <li><a href="https://www.youtube.com/watch?v=lgeUM605Q6Q" target="_blank"> 
-                    https://www.youtube.com/watch?v=lgeUM605Q6Q</a></li>
+                    <p><li><a href="https://www.youtube.com/watch?v=lgeUM605Q6Q" target="_blank"> 
+                    https://www.youtube.com/watch?v=lgeUM605Q6Q</a></li></p>
 
-                    <li><a href="https://www.youtube.com/watch?v=g2KEQjBo-Mk&list=PLo7ndkxMhMeAqI018-u9g9INIQ4DM9EVf&index=1" target="_blank"> 
-                    https://www.youtube.com/watch?v=g2KEQjBo-Mk&list=PLo7ndkxMhMeAqI018-u9g9INIQ4DM9EVf&index=1</a></li>
+                    <p><li><a href="https://www.youtube.com/watch?v=g2KEQjBo-Mk&list=PLo7ndkxMhMeAqI018-u9g9INIQ4DM9EVf&index=1" target="_blank"> 
+                    https://www.youtube.com/watch?v=g2KEQjBo-Mk&list=PLo7ndkxMhMeAqI018-u9g9INIQ4DM9EVf&index=1</a></li></p>
                 </ul>
             </div>
         </div>
