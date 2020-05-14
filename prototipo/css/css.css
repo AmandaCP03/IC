@@ -1,7 +1,7 @@
 header{
     height: 120px;
     /*padding-top: 2%;*/
-    padding-bottom: 5px;
+    padding-bottom: 50px;
     background-color: rgb(5, 16, 78);
     color:white;
     width: 100%;
@@ -92,4 +92,9 @@ color:black;
     #wrapper.toggled #sidebar-wrapper {
       margin-left: -15rem;
     }
+  }
+
+  /* Modal login */
+  #opaco{
+    opacity: 0.1;
   }
