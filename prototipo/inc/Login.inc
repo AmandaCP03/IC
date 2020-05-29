@@ -22,31 +22,22 @@
                             <input type="text" name="nome" class="form-control" placeholder="Nome"/>
                         </div>
                     </div>
-                    
-                    <div class="form-group">
-                        <div class="input-group">
-                            <div class="input-group-addon">
-                                <span class="material-icons">assignment</span>
-                            </div>
-                            <input type="number" name="matricula" class="form-control" placeholder="Matrícula"/>
-                        </div>
-                    </div>
 
                     <div class="form-group">
                         <div class="input-group">
                             <div class="input-group-addon">
-                                <span class="material-icons">card_travel</span>
+                                <span class="material-icons">lock_outline</span>
                             </div>
-                            <input type="text" name="instituicao" class="form-control" placeholder="Instituição"/>
+                            <input type="password" name="senha" class="form-control" placeholder="Senha"/>
                         </div>
                     </div>
                     <div class = "float-right">
-                        <button class="btn btn-md btn-outline-secondary" href="#" role="button">Cancelar</button>
-                        <button type="submit" class="btn btn-md btn-outline-secondary">
+                        <button type="submit" class="bot bot_form">
                             Entrar
                         </button>
                     </div>
                 </form>
+                 <a class="bot2 bot_form2" href="cadastro.php" type="button" role="button" style="margin-top:10px;">Cadastrar</a>
             </div>
         </div>
     </div>

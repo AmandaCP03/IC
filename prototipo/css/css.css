@@ -98,3 +98,51 @@ color:black;
   #opaco{
     opacity: 0.1;
   }
+
+  .bot_cad:visited{
+    color:#5a5a5a;
+  }
+
+  /* BOTÃO DA PÁGINA DE CADASTRO */
+  .bot{
+    border:none;
+    color: white;
+    padding:10px;
+    margin: 10px;
+    line-height: 20px;
+    border-radius: 5px;
+    transition:400ms;
+  }
+
+  .bot_form{
+    background-color:rgb(5, 16, 78);
+  }
+  
+  .bot:hover{
+    background-color: rgba(0, 0, 0, 0);
+    color:rgb(5, 16, 78);
+    box-shadow: inset 0 0 0 2px rgb(5, 16, 78);
+  }
+  /* BOTÃO LOGIN */
+  .bot2{
+    border:none;
+    color: white;
+    padding:10px;
+    margin: 10px;
+    line-height: 20px;
+    border-radius: 5px;
+    transition:400ms;
+  }
+
+  .bot_form2{
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0);
+    color:rgb(5, 16, 78);
+    box-shadow: inset 0 0 0 2px rgb(5, 16, 78);
+  }
+
+  .bot2:hover{
+    text-decoration: none;
+    color:white;
+    background-color:rgb(5, 16, 78);
+  }
