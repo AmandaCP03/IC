@@ -24,7 +24,9 @@
 
             <div class="col-lg-10 offset-lg-2 col-sm-5 offset-sm-0">
                 <div class="conteudo">
-                    <h5>Texto com o assunto desenvolvido</h5>
+                    <?php
+                        include "inc/cmateria.inc";
+                    ?>
                 </div>
             </div>
         </div>

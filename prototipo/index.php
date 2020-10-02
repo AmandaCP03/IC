@@ -29,7 +29,9 @@
     
         <div class="col-lg-8 offset-lg-2 col-sm-5 offset-sm-0">
             <div class="conteudo">
-                <h5>Texto de introdução</h5>
+                <?php
+                    include "inc/cindex.inc";
+                ?>
             </div>
         </div>
     </div>
@@ -46,5 +48,8 @@
             $("#wrapper").toggleClass("toggled");
         });
     </script>
+    <?php
+        //include "inc/rodape.inc";
+    ?>
 </body>
 </html>

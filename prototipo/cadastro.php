@@ -11,7 +11,7 @@
 </head> 
 <body>
 <?php
-        include "inc/cabecalho.inc";
+        include "inc/cabecalho_cad.inc";
         /*include "menu.inc";*/
     ?>
     <div class="conteudo col-lg-6 col-sm-12 offset-lg-3">

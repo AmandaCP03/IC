@@ -11,7 +11,7 @@
                         <a href="index.php" style="margin-right:30px;"> <img src="img/casa.png" width=25 height=25> </a>
                     </li>
                     <li class="nav-item">
-                        <a href="materia.php" style="margin-right:30px;" class="button"> <img src="img/materia.png" width=20 height=20> Matéria </a>
+                        <a href="materia.php" style="margin-right:30px;"> <img src="img/materia.png" width=20 height=20> Matéria </a>
                     </li>
                     <li class="nav-item">
                         <a href="videos.php" style="margin-right:30px;"> <img src="img/video.png" width=20 height=20> Vídeo aulas </a>
