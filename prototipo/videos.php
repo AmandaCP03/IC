@@ -25,14 +25,23 @@
             <div class="conteudo">
                 <h5>Vídeos que possam ajudar:</h5>
                 <ul>
-                    <p><li><a href="https://www.youtube.com/watch?v=ercdzLrY27Q&list=PLA90935055A0C9030&index=2" target="_blank"> 
-                    https://www.youtube.com/watch?v=ercdzLrY27Q&list=PLA90935055A0C9030&index=2</a></li></p>
+                    <div class = "video">
+                        <iframe src="https://www.youtube.com/embed/ercdzLrY27Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <!--<p><li><a href="https://www.youtube.com/watch?v=ercdzLrY27Q&list=PLA90935055A0C9030&index=2" target="_blank"> 
+                    https://www.youtube.com/watch?v=ercdzLrY27Q&list=PLA90935055A0C9030&index=2</a></li></p>-->
+                    
+                    <div class = "video">
+                        <iframe src="https://www.youtube.com/embed/lgeUM605Q6Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                   
+                    </div>
+                    <!--<p><li><a href="https://www.youtube.com/watch?v=lgeUM605Q6Q" target="_blank"> 
+                    https://www.youtube.com/watch?v=lgeUM605Q6Q</a></li></p>-->
 
-                    <p><li><a href="https://www.youtube.com/watch?v=lgeUM605Q6Q" target="_blank"> 
-                    https://www.youtube.com/watch?v=lgeUM605Q6Q</a></li></p>
-
-                    <p><li><a href="https://www.youtube.com/watch?v=g2KEQjBo-Mk&list=PLo7ndkxMhMeAqI018-u9g9INIQ4DM9EVf&index=1" target="_blank"> 
-                    https://www.youtube.com/watch?v=g2KEQjBo-Mk&list=PLo7ndkxMhMeAqI018-u9g9INIQ4DM9EVf&index=1</a></li></p>
+                    <div class = "video">
+                        <iframe src="https://www.youtube.com/embed/g2KEQjBo-Mk?list=PLo7ndkxMhMeAqI018-u9g9INIQ4DM9EVf" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <!--<p><li><a href="https://www.youtube.com/watch?v=g2KEQjBo-Mk&list=PLo7ndkxMhMeAqI018-u9g9INIQ4DM9EVf&index=1" target="_blank"> 
+                    https://www.youtube.com/watch?v=g2KEQjBo-Mk&list=PLo7ndkxMhMeAqI018-u9g9INIQ4DM9EVf&index=1</a></li></p>-->
                 </ul>
             </div>
         </div>

@@ -161,3 +161,10 @@ color:black;
     bottom: 0;
     left: 0;
   }
+
+  /* Videos */
+  
+  .video{
+    width: 200px;
+    height: 180px;
+  }

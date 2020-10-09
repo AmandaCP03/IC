@@ -9,6 +9,16 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link href = "https://fonts.googleapis.com/icon?family=Material+Icons" rel = "stylesheet"/><link href = "https://fonts.googleapis.com/icon?family=Material+Icons" rel = "stylesheet"/>
     <!-- https://materializecss.com/icons.html -->
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script>
+        $(function(){
+            $("#introducao").click(function(){
+                var href = $(this).attr('href'); // pega o valor do atributo href da âncora clicada
+                $('#conteudo').load(href);
+
+            });
+        });
+    </script>
 </head> 
 <body>
     <?php
@@ -28,16 +38,27 @@
         </nav>
     
         <div class="col-lg-8 offset-lg-2 col-sm-5 offset-sm-0">
-            <div class="conteudo">
-                <?php
-                    include "inc/cindex.inc";
-                ?>
+            <div class="conteudo" id="conteudo">
+                <?php include "inc/bemvindo.inc"; ?>
             </div>
         </div>
     </div>
-    <?php
-        include "inc/tema.php";
-    ?>
+    <div class="border-right tema" id="sidebar-wrapper">
+        <div class="list-group list-group-flush">
+        <button id="introducao" style="color: white; background-color: rgb(5, 16, 78);" href="inc/introducao.inc" class="list-group-item list-group-item-action">
+            Introdução
+        </button>
+        <a id="metais"style="color: white; background-color: rgb(5, 16, 78);" href="metais.php" class="list-group-item list-group-item-action">
+           Metais
+       </a>
+       <a id="aco" style="color: white; background-color: rgb(5, 16, 78);" href="aco.php" class="list-group-item list-group-item-action">
+           Aço
+       </a>
+       <a id="polimeros"style="color: white; background-color: rgb(5, 16, 78);" href="#" class="list-group-item list-group-item-action">
+           Polímeros
+       </a>
+        </div>
+    </div>
 </div>
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/popper.min.js"></script>
