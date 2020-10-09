@@ -7,6 +7,35 @@
     <link rel="shortcut icon" href="img/logo2.png" >
     <link rel="stylesheet" href="css/css.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script>
+        $(function(){
+            //SUBTÓPICOS DO MENU - METAIS
+            $("#metais").mouseenter(function(){
+                //var href = $(this).attr('href'); // pega o valor do atributo href da âncora clicada
+                $('#sub_metais').html("<ul style='list-style: none; margin:0; font-size:16px;'><li style='margin-bottom:5px;'> Teoria</li><li style='margin-bottom:5px;'> Obtenção</li><li style='margin-bottom:5px;'> Aplicação</li></ul>");
+            });
+            $("#sub_metais").mouseleave(function(){
+                $("#sub_metais").html("");
+            });
+
+            //SUBTÓPICOS DO MENU - AÇO
+            $("#aco").mouseenter(function(){
+                $('#sub_aco').html("<ul style='list-style: none; margin:0; font-size:16px;'><li style='margin-bottom:5px;'> Teoria</li><li style='margin-bottom:5px;'> Obtenção</li><li style='margin-bottom:5px;'> Aplicação</li></ul>");
+            });
+            $("#sub_aco").mouseleave(function(){
+                $("#sub_aco").html("");
+            });
+
+            //SUBTÓPICOS DO MENU - POLIMEROS
+            $("#polimeros").mouseenter(function(){
+                $('#sub_polimeros').html("<ul style='list-style: none; margin:0; font-size:16px;'><li style='margin-bottom:5px;'> Teoria</li><li style='margin-bottom:5px;'> Obtenção</li><li style='margin-bottom:5px;'> Aplicação</li></ul>");
+            });
+            $("#sub_polimeros").mouseleave(function(){
+                $("#sub_polimeros").html("");
+            });
+        });
+    </script>
 </head> 
 <body>
     <?php
