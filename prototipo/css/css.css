@@ -164,7 +164,7 @@ color:black;
 
   /* Videos */
   
-  .video{
-    width: 200px;
-    height: 180px;
+  iframe{
+    width: 400px;
+    height: 200px;
   }

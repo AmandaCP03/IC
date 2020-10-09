@@ -23,7 +23,7 @@
 
         <div class="col-lg-10 offset-lg-2 col-sm-4 offset-sm-0">   
             <div class="conteudo">
-                <h5>Vídeos que possam ajudar:</h5>
+                <h5>Vídeos que possam ajudar</h5><hr/>
                 <ul>
                     <div class = "video">
                         <iframe src="https://www.youtube.com/embed/ercdzLrY27Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
