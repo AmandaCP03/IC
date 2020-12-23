@@ -1,39 +1,45 @@
 <div class="border-right tema" id="sidebar-wrapper">
-     <div class="list-group list-group-flush">
-        <ul style="list-style: none; margin:0;">
-            <li>
-            <a id="introducao" style="color: white; background-color: rgb(5, 16, 78);" href="introducao.php" class="list-group-item list-group-item-action">
-                Introdução
-            </a>
-            </li>
-            <li>
-                <a id="metais"style="color: white; background-color: rgb(5, 16, 78);" href="metais.php" class="list-group-item list-group-item-action">
-                    Metais
-                </a>
-                <div id="sub_metais">
-
-                </div>
-                <!--<ul style="list-style: none; margin:0; font-size:16px;">
-                    <li style="margin-bottom:5px;"> Teoria</li>
-                    <li style="margin-bottom:5px;"> Obtenção</li>
-                    <li style="margin-bottom:5px;"> Aplicação</li>
-                </ul>-->
-            </li>
-            <li>
-                <a id="aco" style="color: white; background-color: rgb(5, 16, 78);" href="aco.php" class="list-group-item list-group-item-action">
-                    Aço
-                    <div id="sub_aco">
-
-                    </div>
+     <div class="">
+        <ul style="list-style: none; margin-left:-10px;">
+            <li class="topico_menu_lateral">
+                <a id="introducao"  href="introducao.php" class=" menu_superior ">
+                    Introdução
                 </a>
             </li>
-            <li>
-                <a id="polimeros"style="color: white; background-color: rgb(5, 16, 78);" href="#" class="list-group-item list-group-item-action">
-                    Polímeros
+            <li style="margin-top:8%;" class="topico_menu_lateral">
+                <a id="metais"  href="estrutura_atomica.php" class=" menu_superior ">
+                    Estrutura Atômica
+                </a>
+            </li>
+            <li style="margin-top:8%;" class="topico_menu_lateral">
+                <a id="aco"  href="ligacoes.php" class=" menu_superior ">
+                    Ligações Químicas
+                </a>
+            </li>
+            <li style="margin-top:8%;" class="topico_menu_lateral">
+                <a id="polimeros" href="estrutura_metais.php" class=" menu_superior ">
+                    Estrutura dos Materiais
                 </a> 
-                <div id="sub_polimeros">
-
-                </div>
+            </li>
+            <li style="margin-top:8%;" class="topico_menu_lateral">
+                <a id="polimeros" href="estrutura_metais.php" class=" menu_superior ">
+                    Metais
+                </a> 
+            </li>
+            <li style="margin-top:8%;" class="topico_menu_lateral">
+                <a id="polimeros" href="estrutura_metais.php" class=" menu_superior ">
+                    Polímeros 
+                </a> 
+            </li>
+            <li style="margin-top:8%;" class="topico_menu_lateral">
+                <a id="polimeros" href="estrutura_metais.php" class=" menu_superior ">
+                    Cerâmicas
+                </a> 
+            </li>
+            <li style="margin-top:8%;" class="topico_menu_lateral">
+                <a id="polimeros" href="estrutura_metais.php" class=" menu_superior ">
+                    Ensaios Mecânicos
+                </a> 
             </li>
         </ul>
      </div>

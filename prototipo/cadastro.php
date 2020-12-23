@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Química dos materiais</title>
+    <title>Química de materiais</title>
     <link rel="shortcut icon" href="img/logo2.png" >
     <link rel="stylesheet" href="css/css.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">

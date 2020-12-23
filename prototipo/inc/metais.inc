@@ -1,4 +1,4 @@
-<h3>Materiais - Metais</h3>
+<center><h3 style="font-family:Montserrat"><b>Materiais - Metais</b></h3></center>
 
 <p>Os metais são substâncias inorgânicas compostas por um ou mais elementos metálicos, podendo conter também elementos não metálicos, como o nitrogênio, o oxigênio e o carbono. Seus átomos são organizados de maneira ordenada e formando cátions parciais, que são mantidos pelo mar de elétrons (ou nuvem de elétrons), formando o chamado retículo cristalino metálico.</p>
 <p>Seu arranjo atômico é o principal responsável pelas propriedades qu e apresenta. Uma das mais importantes é a grande capacidade condutora, tanto térmica quanto elétrica. Isso se dá, devido aos elétrons não estarem ligados particularmente a um átomo, fazendo parte do “mar” de elétrons. Outra propriedade muito característica é a resistência que apresentam, por isso, é muito utilizado na área da mecânica. Mas também podemos ressaltar seu brilho característico, maleabilidade, altos pontos de fusão e ebulição e ductilidade.</p>

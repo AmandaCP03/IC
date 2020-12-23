@@ -6,21 +6,25 @@
     <title>Química de materiais</title>
     <link rel="shortcut icon" href="img/logo2.png" >
     <link rel="stylesheet" href="css/css.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Sulphur+Point:wght@300&display=swap" rel="stylesheet">
 </head> 
 <body>
     <?php
         include "inc/cabecalho.html";
         /*include "menu.inc";*/
     ?>
-            <div class="col-lg-10 offset-lg-2 col-sm-5 offset-sm-0">
-                <div class="conteudo">
-                    <?php
-                        include "inc/aco.inc";
-                    ?>
-                </div>
-            </div>
+    <div class="col-lg-8 offset-lg-2 col-sm-5 offset-sm-0">
+        <div class="conteudo" id="conteudo">
+            <center> 
+                <h1 style="font-family: 'Sulphur Point', sans-serif;">
+                    <img src="img/hq_icone.jpg" width=60 height=50 style="position:relative; margin-bottom:10px;">
+                    <b>Histórias em quarinhos</b>
+                </h1>
+            </center>
+            
         </div>
+    </div>
         <?php
             include "inc/tema.php";
         ?>
