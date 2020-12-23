@@ -18,7 +18,7 @@
         <div class="conteudo" id="conteudo">
             <center> 
                 <h1 style="font-family: 'Sulphur Point', sans-serif;">
-                    <img src="img/hq_icone.jpg" width=60 height=50 style="position:relative; margin-bottom:10px;">
+                    <img src="img/hq_icone.jpg" width=65 height=55 style="position:relative; margin-bottom:5px;">
                     <b>Histórias em quarinhos</b>
                 </h1>
             </center>
