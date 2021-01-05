@@ -12,6 +12,7 @@
 <body>
     <?php
         include "inc/cabecalho.html";
+        include "modal_contato.php";
         /*include "menu.inc";*/
     ?>
             <div class="col-lg-10 offset-lg-2 col-sm-5 offset-sm-0">
@@ -28,6 +29,7 @@
         </div>
         <?php
             include "inc/tema.php";
+            include "inc/rodape.html";
         ?>
     </div>
     <script src="js/jquery-3.3.1.min.js"></script>

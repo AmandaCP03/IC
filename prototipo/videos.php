@@ -13,6 +13,7 @@
 <body>
     <?php
         include "inc/cabecalho.html";
+        include "modal_contato.php";
     ?>
         <div class="col-lg-10 offset-lg-2 col-sm-4 offset-sm-0">   
             <div class="conteudo">
@@ -53,9 +54,9 @@
             </div>
         </div>
     </div>
-    
     <?php
         include "inc/tema.php";
+        include "inc/rodape.html";
     ?>
 
 
@@ -69,5 +70,9 @@
             $("#wrapper").toggleClass("toggled");
         });
     </script>
+
+    <?php
+        include "inc/rodape.html";
+    ?>
 </body>
 </html>

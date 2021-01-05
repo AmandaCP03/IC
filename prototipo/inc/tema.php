@@ -22,22 +22,22 @@
                 </a> 
             </li>
             <li style="margin-top:8%;" class="topico_menu_lateral">
-                <a id="polimeros" href="estrutura_metais.php" class=" menu_superior ">
+                <a id="polimeros" href="metais.php" class=" menu_superior ">
                     Metais
                 </a> 
             </li>
             <li style="margin-top:8%;" class="topico_menu_lateral">
-                <a id="polimeros" href="estrutura_metais.php" class=" menu_superior ">
+                <a id="polimeros" href="polimeros.php" class=" menu_superior ">
                     Polímeros 
                 </a> 
             </li>
             <li style="margin-top:8%;" class="topico_menu_lateral">
-                <a id="polimeros" href="estrutura_metais.php" class=" menu_superior ">
+                <a id="polimeros" href="ceramicos.php" class=" menu_superior ">
                     Cerâmicas
                 </a> 
             </li>
             <li style="margin-top:8%;" class="topico_menu_lateral">
-                <a id="polimeros" href="estrutura_metais.php" class=" menu_superior ">
+                <a id="polimeros" href="ensaios.php" class=" menu_superior ">
                     Ensaios Mecânicos
                 </a> 
             </li>

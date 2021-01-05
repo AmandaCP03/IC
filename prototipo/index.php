@@ -24,7 +24,8 @@
 <body>
     <?php
         include "inc/cabecalho.html";
-        include "inc/Login.inc";
+        include "modal_contato.php";
+        //include "inc/Login.inc";
     ?>
 
     <div class="col-lg-8 offset-lg-2 col-sm-5 offset-sm-0">
@@ -39,7 +40,7 @@
     </div>
     <?php
         include "inc/tema.php";
-        //include "inc/rodape.html";
+        include "inc/rodape.html";
     ?>
 
     <script src="js/jquery-3.3.1.min.js"></script>
@@ -51,9 +52,6 @@
             $("#wrapper").toggleClass("toggled");
         });
     </script>
-    <?php
-        //include "inc/rodape.inc";
-    ?>
 </body>
 </html>
     

@@ -1,5 +1,6 @@
 body{
   font-family: 'PT Sans', sans-serif;
+  height: 100%;
 }
 header{
     height: 110px;
@@ -32,8 +33,9 @@ header{
     height: 40px;
 }
 .conteudo{
-    /*margin-left: 23%;*/
+    margin-left: 3%;
     margin-top: 190px;
+    padding-bottom: 100px;
     position: absolute;
     text-align:justify;
     width:80%;
@@ -76,6 +78,7 @@ center h1{
 }
 
 /* sidebar */
+/* sidebar */
 #sidebar-wrapper {
   min-height: 75vh;
   margin-left: -15rem;
@@ -116,6 +119,9 @@ center h1{
     margin-left: -15rem;
   }
 }
+
+
+
   /* Modal login */
   #opaco{
     opacity: 0.1;
@@ -169,23 +175,25 @@ center h1{
     background-color:rgb(5, 16, 78);
   }
 
-  .rodape{
-    margin-left: 16.5%;
+  footer{
+    /*margin-left: 16.5%;
     border-top: 1px solid black;
     color:black;
     background: white;
     width: 70%;
     height: 50px;
-    /* position: fixed; */
+    bottom: 0;*/
+    border-top: 2px solid black; 
+    background-color: rgb(236, 234, 234);
+    width: 84%;
+    height: 90px;
+    position: fixed;
     bottom: 0;
+    margin-left: 219px;
+
   }
 
   /* Videos */
-  
-  iframe{
-    width: 400px;
-    height: 200px;
-  }
 
   .btn:hover{
     outline-style: none;
